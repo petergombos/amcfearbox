@@ -4,8 +4,8 @@ $(document).ready(function () {
         var src = $("iframe.video").attr("src");
         $("iframe.video").attr("src", src.replace("135038204", hash));
 
-        $("iframe.video").after(' <div class="fb-like" data-href="http://amc-redirect.kriek.io/#'+hash+'" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>');
+        $("iframe.video").after(' <div class="fb-like" data-href="http://amc-redirect.kriek.io/'+hash+'" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>');
     } else {
-        $("iframe.video").after(' <div class="fb-like" data-href="http://amc-redirect.kriek.io/" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>');
+        $("iframe.video").after(' <div class="fb-like" data-href="http://amc-redirect.kriek.io/135445856" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>');
     }
 });
