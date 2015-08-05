@@ -176,6 +176,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .content iframe.video {
+    margin-bottom: 20px;
+}
+
+.content .fb-like {
+    display: block;
     margin-bottom: 100px;
 }
 
