@@ -148,6 +148,13 @@ body {
     right: 30px;
 }
 
+.header img.premiere {
+    position: absolute;
+    bottom: 36px;
+    left: 50%;
+    margin-left:  136px;
+}
+
 .content {
     padding-top: 40px;
     width: 100%;
