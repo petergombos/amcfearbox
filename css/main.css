@@ -205,6 +205,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .content .share {
     display: block;
+    margin: 0 auto;
     margin-bottom: 100px;
 }
 
