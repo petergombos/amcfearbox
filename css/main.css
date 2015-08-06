@@ -204,9 +204,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .content .share {
+    background: none;
+    border: none;
     display: block;
     margin: 0 auto;
     margin-bottom: 100px;
+    width: 200px;
+    height: 60px;
+    background: url(../img/share.svg);
+    outline: none;
 }
 
 .content h1 {

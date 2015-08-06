@@ -7,7 +7,7 @@ $(document).ready(function () {
         // $("iframe.video").after(' <div class="fb-like" data-href="http://amc-redirect.kriek.io/'+hash+'" data-layout="button" data-action="like" data-show-faces="false" data-share="true"></div>');
     }
 
-    $("iframe.video").after(' <button onclick="share();" class="share">Megosztás</button>');
+    $("iframe.video").after(' <button onclick="share();" class="share"></button>');
 });
 
 function share() {
