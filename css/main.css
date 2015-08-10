@@ -141,11 +141,23 @@ body {
     height: 720px;
     position: relative;
     text-align: center;
+
+}
+@media screen and (max-width: 400px) {
+    .header {
+        height: 500px;
+    }
 }
 
 .header img {
     position: relative;
     right: 30px;
+}
+
+@media screen and (max-width: 960px) {
+    .header img {
+        right: 0;
+    }
 }
 
 .header img.premiere {
@@ -160,7 +172,7 @@ body {
         position: absolute;
         bottom: 36px;
         left: auto;
-        right: 30px;
+        right: 0px;
         margin-left: 0;
     }
 }
